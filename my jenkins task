@@ -1,0 +1,19 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/project K
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/project K/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Naruto-monkeydluffy/jenkins-server.git # timeout=10
+Fetching upstream changes from https://github.com/Naruto-monkeydluffy/jenkins-server.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/Naruto-monkeydluffy/jenkins-server.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+Checking out Revision 0c51caef86a7118a330af78439d2d6450c42b194 (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0c51caef86a7118a330af78439d2d6450c42b194 # timeout=10
+Commit message: "Create jenkinss"
+ > git rev-list --no-walk c2013a37b224f6f76a69ad60a6d8645f497cc145 # timeout=10
+Finished: SUCCESS
